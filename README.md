@@ -113,7 +113,3 @@ Use **Restart Kernel and Run All Cells**. A clean run should execute every cell 
 - The default 0.5 threshold is not cost optimized. Threshold selection should use training-only out-of-fold probabilities and explicit operating costs.
 - Probability calibration, subgroup review, drift monitoring, data-quality controls, and scheduled performance monitoring are needed before deployment.
 - Observed segment rates and permutation importance are associations. They do not establish causal reasons for cancellation or the effect of an intervention.
-
-## License
-
-The project code is released under the [MIT License](LICENSE). The dataset is not relicensed by this repository and remains subject to its original [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) and attribution requirements.
